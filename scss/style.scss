@@ -1,0 +1,14 @@
+// helpers
+@import "./helpers/variables";
+@import "./helpers/mixin";
+// base
+@import "./base/reset";
+@import "./base/customize";
+// components
+// layout
+@import "./layouts/header";
+@import "./layouts/banner";
+@import "./layouts/list-film";
+@import "./layouts/revew_film";
+
+
