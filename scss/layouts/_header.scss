@@ -1,0 +1,31 @@
+.tabbar {
+    display: grid;
+    padding: 0 16px;
+    grid-template-columns: repeat(4,1fr);
+    border-top: 1px solid $color-bd-top-tabbar;
+    position: fixed;
+    background: $color-br;
+    bottom: 0;
+    z-index: 99;
+    width: 100%;
+    .active{
+        border-top: 3px solid $color-blue-bt !important;
+        color: $color-blue-bt !important;
+    }
+    .tabbar_item{
+        color: $color-grey-font;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid transparent;
+        padding: 8px 0;
+        p{
+            font-size: $fs;
+            font-weight: $fw3;
+        }
+    }
+    .tabbar_item:hover{
+        text-decoration: none;
+    }
+}
