@@ -36,5 +36,27 @@ $bd1:5px;
 $bd2:20px;
 // width
 $width-img-movie-can-watch:92px;
+$width-img__ :40px;
 // height
 $height-img-movie-can-watch:130px;
+$height-banner:410px;
+$h-banner-rp1:310px;
+$h-banner-rp2:210px;
+$h-banner-rp3:110px;
+// height rp section
+$h-review-movie:500px;
+$h-review-movie2:300px;
+
+
+//break points
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+    "extra-large-down": 1199.98px,
+    "large-down": 991.98px,
+    "medium-down": 767.98px,
+    "small-down": 575.98px,
+    "small-min" : 373.98px
+);

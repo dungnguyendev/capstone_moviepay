@@ -1,36 +1,82 @@
-.banner{
+.banner {
     background-color: $color-br-banner;
-    .banner-top{
+
+    .banner-top {
         position: relative;
-        
-        i{
+
+        i {
             position: absolute;
             font-size: $fs-3;
             font-weight: $fw5;
             color: $color-grey-font;
         }
-        input{
+
+        input {
             background: $color-br;
             border: 2px solid $color-bd-top-tabbar;
             outline: none;
             border-radius: 10px;
             color: $color-grey-font;
             font-size: $fs-2;
-            padding:$pd1 $pd3 $pd1 $pd4;
+            padding: $pd1 $pd3 $pd1 $pd4;
             width: 100%;
         }
     }
+
     .banner-bottom {
         width: 100%;
-        
+
         .ds1 {
             img {
                 border-radius: 20px;
                 width: 100%;
-                height: 291px;
+                height: $height-banner;
             }
         }
-    
+
+
+    }
+}
+
+@include responsive("large-down") {
+
+    .banner {
+        .banner-bottom {
+            .ds1 {
+            img {
+
+                height: $h-banner-rp1;
+            }
+        }
+        }
+        
+    }
+}
+
+@include responsive("medium-down") {
+    .banner {
+        .banner-bottom {
+            .ds1 {
+            img {
+
+                height: $h-banner-rp2;
+            }
+        }
+        }
+        
+    }
+}
+
+@include responsive("small-min"){
+    .banner {
+        .banner-bottom {
+            .ds1 {
+            img {
+
+                height: $h-banner-rp3;
+            }
+        }
+        }
         
     }
 }
