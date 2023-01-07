@@ -1,9 +1,10 @@
 // font-size
 $fs:10px;
-$fs-1:10px;
-$fs-2:15px;
+$fs-1:12px;
+$fs-2:16px;
 $fs-3:20px;
 $fs-4:30px;
+$fs-5:14px;
 // font-weight
 $fw1:300;
 $fw2:400;
@@ -14,4 +15,48 @@ $fw5:900;
 $color-blue-bt:#007aff;
 $color-grey-font:#ccd2d8;
 $color-br:#001932;
+$color-br-banner:#001325;
 $color-bd-top-tabbar:#212f50;
+$cl-bd-input:#212f50;
+$color-white-font:#fff;
+$color-br-type:#03ca77;
+$color-clook-icon:#007aff;
+$cl-bd-review-film:#212f50;
+// padding
+$pd:10px;
+$pd1:7px;
+$pd2:15px;
+$pd3:20px;
+$pd4:35px;
+$pd5:3px;
+$pd6:60px;
+// border
+$bd:10px;
+$bd1:5px;
+$bd2:20px;
+// width
+$width-img-movie-can-watch:92px;
+$width-img__ :40px;
+// height
+$height-img-movie-can-watch:130px;
+$height-banner:410px;
+$h-banner-rp1:310px;
+$h-banner-rp2:210px;
+$h-banner-rp3:110px;
+// height rp section
+$h-review-movie:500px;
+$h-review-movie2:300px;
+
+
+//break points
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+    "extra-large-down": 1199.98px,
+    "large-down": 991.98px,
+    "medium-down": 767.98px,
+    "small-down": 575.98px,
+    "small-min" : 373.98px
+);
