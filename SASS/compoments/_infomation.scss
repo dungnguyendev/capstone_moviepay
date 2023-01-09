@@ -1,0 +1,45 @@
+.info__film {
+    color: #ccd2d8;
+    padding: 16px;
+    h2 {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    .info-content{
+      display: flex;
+      font-size: 14px;
+      align-items: center;
+      margin-bottom: 12px;
+      @media screen and (max-width: 1023px){
+        display: inline-block;
+    }
+    @media screen and (max-width: 740px){
+      display: inline-block
+    };
+      .read-more{
+          color: #03ca77;
+          cursor: pointer;
+          margin-bottom: 0px;
+          margin-left: 2px;
+          display: inline-block;
+          user-select: none;
+          transition: all 0.5s;
+      }
+      .more{
+        font-size: 14px;
+        display: none;
+      }
+      p{
+          line-height: 22px;
+          margin-bottom: 0px;
+      }
+    }
+    .info-text{
+      color: white;
+      font-size: 14px;
+      line-height: 22px;
+      margin-bottom: 0px;
+    }
+  }
+  

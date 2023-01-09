@@ -1,0 +1,26 @@
+@mixin style_text($fs,$fw,$color){
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+@mixin style_button_category_film($bg,$pd-y,$pd-x, $radius){
+    background: $bg;
+    padding: $pd-y $pd-x;
+    border-radius: $radius;
+    
+}
+@mixin style_Button_Hover($bd-color,$color) {
+    border-color: $bd-color;
+    color: $color;
+}
+@mixin responsive($screen) {   
+    @if(map-has-key($map:$breakpoints , $key:$screen )){      
+        $value: map-get($map:$breakpoints , $key:$screen );       
+        @media screen and (max-width:$value){
+            @content;
+        }
+    }
+    @else{       
+        @warn "`{$screen}` isn't in breakpoint";
+    }
+}
