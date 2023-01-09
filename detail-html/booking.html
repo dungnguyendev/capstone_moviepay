@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Đặt vé</title>
+  </head>
+
+  <body>
+    <main>
+        <div class="booking__wrapper">
+            <div class="booking_place">
+                <div class="place">
+                   <div class="place-name">
+                    <h3>Hồ Chí Minh</h3>
+                   </div>
+                
+                <div class="place-icon">
+                    Thay đổi
+                    <img src="../img/icon-arrow-down.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="booking_title">
+                <p>Chọn ngày</p>
+            </div>
+            <div class="booking_date">
+                <div class="booking_date-list">
+                <ul class="day-list">
+                 <li class="day-items active">
+                    <p>Th 6</p>
+                    <p>6</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 7</p>
+                    <p>7</p>
+                 </li>
+                 <li class="day-items">
+                    <p>CN</p>
+                    <p>8</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 2</p>
+                    <p>9</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 3</p>
+                    <p>10</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 4</p>
+                    <p>11</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 5</p>
+                    <p>12</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 6</p>
+                    <p>13</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 7</p>
+                    <p>14</p>
+                 </li>
+                 <li class="day-items">
+                    <p>CN</p>
+                    <p>15</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 2</p>
+                    <p>16</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 3</p>
+                    <p>17</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 4</p>
+                    <p>18</p>
+                 </li>
+                 <li class="day-items">
+                    <p>Th 5</p>
+                    <p>19</p>
+                 </li>
+
+                </ul>
+                <div class="day-text">
+                    <p><b style="color: #0068ff;font-weight: 600;">Hôm nay</b>, 6 tháng 1, 2023</p>
+                </div>
+            </div>
+            </div>
+            <div class="booking_cine-title">
+                <p>Chọn rạp</p>
+            </div>
+            <div class="booking_cinema-list">
+                <div class="cinema-list-logo">
+                    <div class="cinema-list-item active-cinema">
+                        <img src="../img/LOTTE-8a9d8b.jpg" alt="">
+                    </div>
+                    <div class="cinema-list-item">
+                        <img src="../img/BHD-31107b.jpg" alt="">
+                    </div>
+                    <div class="cinema-list-item">
+                        <img src="../img/CINESTAR-5bea0d.jpg" alt="">
+                    </div>
+                    <div class="cinema-list-item">
+                        <img src="../img/BETA Cinemas-08954f.jpg" alt="">
+                    </div>
+                    <div class="cinema-list-item">
+                        <img src="../img/MEGAGS-d76121.jpg" alt="">
+                    </div>
+                    <div class="cinema-list-item">
+                        <img src="../img/DCINE-6deeca.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cinema-list-description">
+                    <p>Rạp Lotte</p>
+                    <p>Chọn rạp và khung giờ bạn muốn xem nhé</p>
+                </div>
+                
+            </div>
+            <div class="booking_cinema-area">
+                <div class="cinema-area-items">
+                    <label for="check-cinema"  class="cinema-items__content">
+                        <img src="../img/LOTTE-8a9d8b.jpg" alt="">
+                    
+                    <div class="cinema-item__info">
+                        <p>Lotte Cinema Cộng Hòa</p>
+                        <p>Tầng 4, Pico Plaza, 20 Cộng Hòa, P.12, Q.Tân Bình, TP.HCM, Việt Nam</p>
+                    </div>
+                    <div class="cinme-item__icon">
+                        <img class="cinema-arrow-down" src="../img/icon-arrow-down.svg" alt="">
+                        <img class ="cinema-arrow-right" src="../img/icon-arrow-down.svg" alt="">
+                    </div>
+                </label>
+                   <input type="checkbox" class="check-box-input" name="" id="check-cinema" onclick="ChangeCheckbox()">
+                    <div class="cinema-time">
+                        <p>Định dạng 3D - Phụ đề</p>
+                        <p>22:00</p>
+                    </div>
+                </div>
+                <div class="line-cinema"></div>
+                <div class="cinema-area-items">
+                    <label for="check-cinema--2"  class="cinema-items__content align-center">
+                        <img src="../img/LOTTE-8a9d8b.jpg" alt="">
+                    
+                    <div class="cinema-item__info">
+                        <p>Lotte Cinema Gò Vấp</p>
+                        <p>Tầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Q.Gò Vấp, TP.HCM, Việt Nam</p>
+                    </div>
+                    <div class="cinme-item__icon">
+                        <img class="cinema-arrow-down--2" src="../img/icon-arrow-down.svg" alt="">
+                        <img class ="cinema-arrow-right--2" src="../img/icon-arrow-down.svg" alt="">
+                    </div>
+                </label>
+                   <input type="checkbox" class="check-box-input--2" name="" id="check-cinema--2" onclick="ChangeCheckbox2()">
+                    <div class="cinema-time--3d">
+                        <p>Định dạng 3D - Phụ đề</p>
+                        <p>19:45</p>
+                    </div>
+                    <div class="cinema-time--2d">
+                        <p>Định dạng 2D - Phụ đề</p>
+                       <div class="cinema-time-section">
+                            <p>11:45</p>
+                            <p>14:40</p>
+                            <p>15:30</p>
+                            <p>18:00</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="continue_btn">
+                <button>Tiếc tục</button>
+            </div>
+           
+        </div>
+    </main>
+  </body>
+  <!-- --------------------bootrap------------------ -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    const cinemaOpen = document.querySelector(".cinema-items__content");
+    const cinemaTime = document.querySelector(".cinema-time");
+    const LineCinema = document.querySelector(".line-cinema");
+    const arrowDown = document.querySelector(".cinema-arrow-down");
+    const arrowRight = document.querySelector(".cinema-arrow-right");
+    const CheckBox = document.querySelector("#check-cinema");
+    const CinemaTime2d = document.querySelector(".cinema-time--2d")
+    const CinemaTime3d = document.querySelector(".cinema-time--3d");
+    const CheckBox2 = document.querySelector("#check-cinema--2");
+    const arrowDown2 = document.querySelector(".cinema-arrow-down--2");
+    const arrowRight2 = document.querySelector(".cinema-arrow-right--2");
+
+    function ChangeCheckbox(){
+        if(CheckBox.checked == true){
+            cinemaTime.style.display = "block"
+            LineCinema.style.display = "block"
+            arrowDown.style.display = "block"
+            arrowRight.style.display = " none"
+        }else{
+            cinemaTime.style.display = "none"
+            LineCinema.style.display = "none"
+            arrowDown.style.display = "none"
+            arrowRight.style.display = "block"
+            
+        }
+    }
+
+    function ChangeCheckbox2(){
+        if(CheckBox2.checked == true){
+            CinemaTime2d.style.display = "block"
+            CinemaTime3d.style.display = "block"
+            arrowDown2.style.display = "block"
+            arrowRight2.style.display = " none"
+        }else{
+            CinemaTime2d.style.display = "none"
+            CinemaTime3d.style.display = "none"
+            arrowDown2.style.display = "none"
+            arrowRight2.style.display = "block"
+            
+        }
+    }
+    
+  </script>
+</html>

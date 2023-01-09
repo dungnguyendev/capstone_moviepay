@@ -1,0 +1,27 @@
+.booking{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    background-color: $background-color;
+    .btn_booking{
+      width: 100%;
+      background-color: $text-color;
+      color: white;
+      font-size: 16px;
+      line-height: 48px;
+      font-weight: $fw4;
+      border: none;
+      border-radius: 100px;
+      height: 48px;
+      margin: 16px;
+      width: calc(100% - 32px);
+      display: block;
+      text-align: center;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
