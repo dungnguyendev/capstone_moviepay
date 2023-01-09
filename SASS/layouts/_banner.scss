@@ -1,0 +1,59 @@
+.banner{
+    background-color: $color-br-banner;
+    .banner-top{
+        position: relative;
+        
+        i{
+            position: absolute;
+            font-size: $fs-3;
+            font-weight: $fw5;
+            color: $color-grey-font;
+        }
+        input{
+            background: $color-br;
+            border: 2px solid $color-bd-top-tabbar;
+            outline: none;
+            border-radius: 10px;
+            color: $color-grey-font;
+            font-size: $fs-2;
+            padding:$pd1 $pd3 $pd1 $pd4;
+            width: 100%;
+        }
+    }
+    .banner-bottom {
+            
+            .ds1 {
+                width: 100%;
+                
+                img {
+                    border-radius: 4px 6px;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            
+        }
+        .owl-wrapper{
+            .owl-dots{
+                .owl-dot{
+                    outline: none;
+                    span{
+                        background-color: #ccd2d8;
+                        width: 4px;
+                        height: 4px;
+                        opacity: 1;
+                        border-radius: 4px;
+                        margin: 2px;
+                    }
+                }
+               
+                .active{
+                    span{
+                        background-color: #0068ff;
+                        width: 16px;
+                        margin: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

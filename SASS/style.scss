@@ -1,0 +1,50 @@
+// --------reset----------
+@import "./base/reset";
+// ----------font---------
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+// -------------variables---------------
+@import "./helpers/variables";
+@import "./helpers/mixin";
+// -------------Layouts-----------------
+@import "./layouts/header";
+@import "./layouts/banner";
+@import "./layouts/section";
+
+// --------------Product---------------
+@import "./compoments/product";
+// -------------Infomation--------------
+@import "./compoments/infomation";
+
+// ------------actor-------------
+@import "./compoments/actor";
+
+// ---------------------- same-kind------------------
+@import "./compoments/same-kind";
+
+// -------------Booking--------------
+@import "./compoments/btn-booking";
+// ----------------Modal tralier-------------------------
+@import "./compoments/modal";
+// -----------------Booking Place------------
+@import "./compoments/bookingPlace";
+@import "./compoments/button";
+
+.banner--pd{
+  padding-right: 8px!important;
+  padding-left: 8px!important;
+}
+.line {
+  width: 100%;
+  height: 4px;
+  background: #212f50;
+}
+.title--h2 {
+  font-size: 16px;
+  font-weight: $fw4;
+  color: white;
+  margin-bottom: 12px;
+}
+
+
+
+

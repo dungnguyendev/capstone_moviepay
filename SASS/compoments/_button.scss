@@ -1,0 +1,5 @@
+
+.btn_book_tickes_now{
+    @include style_text($fs-1,$fw3,$color-white-font);
+    @include style_button_category_film($color-blue-bt,$pd5,$pd2,$bd2);
+}
